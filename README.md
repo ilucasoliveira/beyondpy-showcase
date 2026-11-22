@@ -80,6 +80,18 @@ Every lesson follows the same [12-block structure](docs/pedagogy.md#the-12-block
 where you are. The site is bilingual: Portuguese is the source language, and the interface and 48
 modules are already in English.
 
+## See it in action
+
+A guided exercise: the first answer misses the limit, the feedback says what to check, and the fix
+passes all 7 tests. Everything runs in the browser, with Python in WebAssembly.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/solve-exercise-dark.gif">
+    <img src="images/solve-exercise-light.gif" alt="Solving a Python exercise: grade > 6 fails the test for grade 6, the feedback says to check the sign, and grade >= 6 passes all 7 tests" width="900">
+  </picture>
+</p>
+
 ## Screenshots
 
 <table>
