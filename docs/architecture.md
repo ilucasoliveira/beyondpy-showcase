@@ -6,8 +6,9 @@ progress, and the browser owns code execution.
 ## The big picture
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Browser
+        direction LR
         Page[Page: HTML + plain JS<br>CodeMirror editor]
         PyWorker[Web Worker<br>Pyodide - CPython 3.14]
         SqlWorker[Web Worker<br>PGlite - PostgreSQL 18]
@@ -17,6 +18,7 @@ flowchart LR
     end
 
     subgraph Server [Server - FastAPI on Railway]
+        direction LR
         Routes[Pages - Jinja2]
         API[JSON API<br>attempts]
         Services[Services<br>content, progress, reviews,<br>streak, achievements]
