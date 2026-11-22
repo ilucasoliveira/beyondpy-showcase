@@ -92,6 +92,16 @@ passes all 7 tests. Everything runs in the browser, with Python in WebAssembly.
   </picture>
 </p>
 
+A SQL exercise works the same way, on a real PostgreSQL inside the browser: a plain `JOIN` drops the
+products with no order item, the feedback names the missing rows, and `LEFT JOIN` brings them back.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/solve-sql-dark.gif">
+    <img src="images/solve-sql-light.gif" alt="Solving a SQL exercise: a query with JOIN returns no rows, the feedback says 3 rows are missing, and LEFT JOIN returns Mate tea, Carrot cake and Meat pie" width="900">
+  </picture>
+</p>
+
 ## Screenshots
 
 <table>
