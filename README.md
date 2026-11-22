@@ -223,7 +223,7 @@ For partnerships, investment or job opportunities:
 
 ## License
 
-Copyright © 2026 Lucas Oliveira. All rights reserved. See [LICENSE](LICENSE).
+Copyright © 2026 Lucas de Oliveira Pimentel. All rights reserved. See [LICENSE](LICENSE).
 
 The screenshots, texts and code samples in this repository are shown for evaluation only. The
 BeyondPy name, logo, the BeePy mascot and the site illustrations are not licensed for any use.
