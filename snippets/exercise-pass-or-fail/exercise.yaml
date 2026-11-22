@@ -1,0 +1,24 @@
+title: Passed or failed
+prompt: |
+  The school passes whoever gets a grade of **6 or more**.
+
+  Complete the condition of the `if`. With the answer `7`, the program must show exactly:
+
+  ```
+  Grade: 7
+  Passed
+  ```
+
+  The tests also try other grades, including 6.
+starter_code: |
+  grade = int(input("Grade: "))
+  if ___:
+      print("Passed")
+  else:
+      print("Failed")
+inputs: ["7"]
+hints:
+  - "The condition compares the variable grade with the number 6."
+  - "Someone who got exactly 6 has passed too."
+  - "\"Greater than or equal\" is written >=."
+  - "if grade >= 6:"
