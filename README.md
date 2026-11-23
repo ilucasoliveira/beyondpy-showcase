@@ -83,12 +83,13 @@ modules are already in English.
 ## See it in action
 
 A guided exercise: the first answer misses the limit, the feedback says what to check, and the fix
-passes all 7 tests. Everything runs in the browser, with Python in WebAssembly.
+passes all 7 tests, while BeePy celebrates in the corner. A failed run gets no reaction from him, on
+purpose: no sad faces. Everything runs in the browser, with Python in WebAssembly.
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/solve-exercise-dark.gif">
-    <img src="images/solve-exercise-light.gif" alt="Solving a Python exercise: grade > 6 fails the test for grade 6, the feedback says to check the sign, and grade >= 6 passes all 7 tests" width="900">
+    <img src="images/solve-exercise-light.gif" alt="Solving a Python exercise: grade > 6 fails the test for grade 6, the feedback says to check the sign, and grade >= 6 passes all 7 tests while BeePy, the mascot, celebrates in the corner" width="900">
   </picture>
 </p>
 
@@ -98,7 +99,7 @@ products with no order item, the feedback names the missing rows, and `LEFT JOIN
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="images/solve-sql-dark.gif">
-    <img src="images/solve-sql-light.gif" alt="Solving a SQL exercise: a query with JOIN returns no rows, the feedback says 3 rows are missing, and LEFT JOIN returns Mate tea, Carrot cake and Meat pie" width="900">
+    <img src="images/solve-sql-light.gif" alt="Solving a SQL exercise: a query with JOIN returns no rows, the feedback says 3 rows are missing, and LEFT JOIN returns Mate tea, Carrot cake and Meat pie while BeePy celebrates in the corner" width="900">
   </picture>
 </p>
 
